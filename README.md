@@ -73,7 +73,8 @@ __2.__ Clone your forked repository into a directory or your choice:
 git clone https://github.com/{Your Username}/Awesome-Programming-Challenges
 ```
 
-3. Make a new branch and create a new remote upstream (i.e link with the original repository for syncing):
+
+__3.__ Make a new branch and create a new remote upstream (i.e link with the original repository for syncing):
 ```
 git checkout -b your_new_branch
 git remote add upstream https://github.com/Zsargul/Awesome-Programming-Challenges
@@ -81,7 +82,7 @@ git remote add upstream https://github.com/Zsargul/Awesome-Programming-Challenge
 
 The name of ```your_new_branch``` does not matter much, so you can name it whatever you'd like.
 
-4.  On your new branch, make a folder (if it does not exist already) named after the task you are attempting, for example:
+__4.__  On your new branch, make a folder (if it does not exist already) named after the task you are attempting, for example:
 ```
 mkdir temperature_converter
 ```
@@ -90,7 +91,8 @@ You can use ```git status``` to check which branch you are currently on.
 
 The folder names for each challenge can be found in the [list above](#CHALLENGES).
 
-5. In that folder, create another folder named after your Github username. That folder will contain your file(s) for the solution you have created. In brief, your submission should look something like this in the file directory:
+
+__5.__ In that folder, create another folder named after your Github username. That folder will contain your file(s) for the solution you have created. In brief, your submission should look something like this in the file directory:
 __Example:__
 ```
 temperature_converter/your_username/your_solution.py
@@ -107,14 +109,15 @@ temperature_converter/
 
 for a multi-file solution.
 
-6. Add, commit and push your solution to your fork using these commands:
+
+__6.__ Add, commit and push your solution to your fork using these commands:
 ```
 git add .
 git commit -m "description of changed files"
 git push -u origin your_new_branch
 ```
 
-7. After successfully pushing, you can finally submit your solution by opening up a pull request through your fork on your web browser. If you do not know how to do this, see [the following](https://opensource.com/article/19/7/create-pull-request-github).
+__7.__ After successfully pushing, you can finally submit your solution by opening up a pull request through your fork on your web browser. If you do not know how to do this, see [the following](https://opensource.com/article/19/7/create-pull-request-github).
 
 ## Submitting new challenges or changes to the current list
 
