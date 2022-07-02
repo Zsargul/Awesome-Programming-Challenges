@@ -1,19 +1,22 @@
 # About
 
-A list of simple programming challenges that are not only good for beginners, but fun for intermediate/experience coders. The list is compiled of various programming exercises and challenges, the vast majority of which are fairly
-simple and good for beginners, with a handful of notably difficult outliers, although those are still nothing daunting. 
+A list of simple programming challenges that are not only good for beginners, but fun for intermediate/experienced coders. Anyone is welcome to code their own solutions and submit them here! 
 
-## Contributing
-
-I initially made this for myself and some friends, however anyone is more than welcome to contribute. You may:
-
+Anyone can:
 - Take any approach and use any language you wish to solve the challenges. 
 - Solve challenges that have already been solved by somebody else
 - Submit ideas for new challenges or changes to the list
 
 As mentioned above, each challenge can be solved multiple times by multiple people, as the goal of this list is not to solve every single challenge listed, but rather to have the people solving them learn something new and get better at coding. So if there's a challenge which you want to take a shot at, but someone else has already coded a solution for it, then you don't need to worry about it.
 
-### How to contribute
+### Tips:
+
+- If a problem is too easy, choose a language you are unfamiliar with to spice things up!
+- If you get stuck or overwhelmed, don't become discouraged. Simplify your problem! Use pen and paper, help yourself understand and/or visualise your problem.
+- Remember that [Stackoverflow](https://stackoverflow.com/) and Google are your best troubleshooting companions. If you are facing a programming-related issue now, chances are, someone in the past also has!
+- Don't be afraid to write terrible code. If anything, *this* is the repository to do it!
+
+## How to contribute
 
 1. Clone this repository in a directory or your choice:
 ```
@@ -25,7 +28,7 @@ git clone https://github.com/Zsargul/Programming-Challenges
 mkdir temperature_converter
 ```
 
-The folder names for each challenge can be found in the list (url to list here)
+The folder names for each challenge can be found in the [list below](#CHALLENGES).
 
 3. In that folder, create another folder named after your Github username. That folder will contain your file(s) for the solution you have created. In brief, your submission should look something like this in the file directory:
 __Example:__
@@ -33,13 +36,16 @@ __Example:__
 temperature_converter/your_username/your_solution.py
 
 ```
+
 for a single file, or:
+
 ```
 temperature_converter/
 └── your_username/
     ├── solution_file1.py
     └── solution_file2.py
 ```
+
 for a multi-file solution.
 
 ## CHALLENGES:
@@ -90,3 +96,5 @@ Due to the fact that the difficulty of each task is VERY subjective, the challen
 | Integer to Roman numeral	      | integer_to_roman	 | Convert a given integer value to roman numerals.									       |
 
 ## Submitting new challenges or changes to the current list
+
+You are also free to suggest new challenges to the list or changes to the current ones. You can do so with a regular pull-request or by opening an issue.
