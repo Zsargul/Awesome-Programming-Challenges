@@ -9,44 +9,14 @@ Anyone can:
 
 As mentioned above, each challenge can be solved multiple times by multiple people, as the goal of this list is not to solve every single challenge listed, but rather to have the people solving them learn something new and get better at coding. So if there's a challenge which you want to take a shot at, but someone else has already coded a solution for it, then you don't need to worry about it.
 
+This repository is also a great way to make your first __pull requests__. If you do not know how to contribute to a Github reposity, see our steps [here](#How to contribute)
+
 ### Tips:
 
 - If a problem is too easy, choose a language you are unfamiliar with to spice things up!
 - If you get stuck or overwhelmed, don't become discouraged. Simplify your problem! Use pen and paper, help yourself understand and/or visualise your problem.
 - Remember that [Stackoverflow](https://stackoverflow.com/) and Google are your best troubleshooting companions. If you are facing a programming-related issue now, chances are, someone in the past also has!
 - Don't be afraid to write terrible code. If anything, *this* is the repository to do it!
-
-## How to contribute
-
-1. Clone this repository in a directory or your choice:
-```
-git clone https://github.com/Zsargul/Programming-Challenges
-```
-
-2. Make a folder (if it does not exist already) named after the task you are attempting, for example:
-```
-mkdir temperature_converter
-```
-
-The folder names for each challenge can be found in the [list below](#CHALLENGES).
-
-3. In that folder, create another folder named after your Github username. That folder will contain your file(s) for the solution you have created. In brief, your submission should look something like this in the file directory:
-__Example:__
-```
-temperature_converter/your_username/your_solution.py
-
-```
-
-for a single file, or:
-
-```
-temperature_converter/
-└── your_username/
-    ├── solution_file1.py
-    └── solution_file2.py
-```
-
-for a multi-file solution.
 
 ## CHALLENGES:
 
@@ -94,6 +64,60 @@ Due to the fact that the difficulty of each task is VERY subjective, the challen
 | Draw a circle with arbitrary radius | circle_drawer		 | Allow the user to specify a radius and use it to draw a corresponding circle.					       |
 | Matrix rotator		      | matrix_rotator           | Given an *n x n* matrix as input, allow for rotating/flipping/reversing the <br>matrix (as if it were an image). Bonus for implementing *m x n* (non-square) rotation! |
 | Integer to Roman numeral	      | integer_to_roman	 | Convert a given integer value to roman numerals.									       |
+## How to contribute
+
+1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository from your web browser
+
+
+2. Clone your forked repository into a directory or your choice:
+```
+git clone https://github.com/{Your Username}/Awesome-Programming-Challenges
+```
+
+3. Make a new branch and create a new remote upstream (i.e link with the original repository for syncing):
+```
+git checkout -b your_new_branch
+git remote add upstream https://github.com/Zsargul/Awesome-Programming-Challenges
+```
+
+The name of ```your_new_branch``` does not matter much, so you can name it whatever you'd like.
+
+3.  On your new branch, make a folder (if it does not exist already) named after the task you are attempting, for example:
+```
+mkdir temperature_converter
+```
+
+You can use ```git status``` to check which branch you are currently on.
+
+The folder names for each challenge can be found in the [list above](#CHALLENGES).
+
+4. In that folder, create another folder named after your Github username. That folder will contain your file(s) for the solution you have created. In brief, your submission should look something like this in the file directory:
+__Example:__
+```
+temperature_converter/your_username/your_solution.py
+```
+
+for a single file, or:
+
+```
+temperature_converter/
+└── your_username/
+    ├── solution_file1.py
+    └── solution_file2.py
+```
+
+for a multi-file solution.
+
+5. Add, commit and push your solution to your fork using these commands:
+```
+git add .
+git commit -m "description of changed files"
+git push -u origin your_new_branch
+```
+
+6. After successfully pushing, you can finally submit your solution by opening up a pull request through your fork on your web browser. If you do not know how to do this, see [the following](https://opensource.com/article/19/7/create-pull-request-github)
+
+
 
 ## Submitting new challenges or changes to the current list
 
