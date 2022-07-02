@@ -24,10 +24,10 @@ Due to the fact that the difficulty of each task is VERY subjective, the challen
 
 | Challenge                           | Folder name              | Description													    	       |
 |-------------------------------------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| Towers of Hanoi                     | towers_of_hanoi          | Simple towers of Hanoi puzzle using 3 rods and<br>N disks.							    	       |
-| Random sentence generator           | sentence_generator       | Simple random sentence generator. Can be pseudorandom,<br>use a Markov Chain, and so on.			    	       |
-| Simple Calculator                   | calculator               | Simple calculator that uses basic arithmetic functions<br>such as +, -, /, etc.					       |
-| Calculate first N digits of Pi      | pi_calculator            | Calculate and print the first N digits of pi, or <br>just print the Nth digit.					       |
+| Towers of Hanoi                     | towers_of_hanoi          | Simple towers of Hanoi puzzle using 3 rods and N disks.							    	       |
+| Random sentence generator           | sentence_generator       | Simple random sentence generator. Can be pseudorandom, use a Markov Chain, and so on.			    	       |
+| Simple Calculator                   | calculator               | Simple calculator that uses basic arithmetic functions such as +, -, /, etc.					       |
+| Calculate first N digits of Pi      | pi_calculator            | Calculate and print the first N digits of pi, or  just print the Nth digit.					       |
 | Image to ASCII art                  | image_to_ascii           | Algorithm for converting an image to ASCII art.									       |
 | Temperature converter               | temperature_converter    | Convert temperature values to and from various units.								       |
 | Fizzbuzz                            | fizzbuzz                 | Simple programming task often asked at job interviews.								       |
@@ -40,11 +40,11 @@ Due to the fact that the difficulty of each task is VERY subjective, the challen
 | Eulerian Path			      | eulerian_path            | See [the following](https://www.geeksforgeeks.org/eulerian-path-and-circuit/)	  				       |
 | Draw a spinning 3D cube             | spinning_cube            | Drawing spinning 3-Dimensional shapes                                                                                       |
 | Highest prime factor calculator     | hpf_calculator           | Find the highest prime factor of a given number N                                                                           |
-| Password Generator                  | password_generator       | Simple password generator. Bonus for allowing user customization<br>options such as special or upper/lower-case characters. |
-| Caesar Cipher encryption/decryption | ceasar_cipher            | Tool for encrypting & decrypting strings of text or other data<br>using a Ceasar cipher.                                    |
-| Benford's Law                       | benfords_law             | Given a list of numbers, find how closely the list follows [Benford's law](https://en.wikipedia.org/wiki/Benford%27s_law).<br>The list of numbers can be any real-life set of numerical data.  |
+| Password Generator                  | password_generator       | Simple password generator. Bonus for allowing user customization options such as special or upper/lower-case characters. |
+| Caesar Cipher encryption/decryption | ceasar_cipher            | Tool for encrypting & decrypting strings of text or other data using a Ceasar cipher.                                    |
+| Benford's Law                       | benfords_law             | Given a list of numbers, find how closely the list follows [Benford's law](https://en.wikipedia.org/wiki/Benford%27s_law). The list of numbers can be any real-life set of numerical data.  |
 | Youtube to MP3/MP4		      | youtube_downloader       | Tool for downloading MP3 and/or MP4 formats of Youtube videos 							       |
-| Media downloader 		      | media_downloader         | Tool for downloading media (Images/Video/Audio) from the<br>web, whether it be from Youtube, Instagram, Soundcloud etc.     |
+| Media downloader 		      | media_downloader         | Tool for downloading media (Images/Video/Audio) from the web, whether it be from Youtube, Instagram, Soundcloud etc.     |
 | Text to Hex/Binary		      | text_converter	         | Convert text strings into numerical values represented in binary and/or hexadecimal.					       |
 | Sierpiński Triangle 		      | sierpinski_triangle      | An algorithm which prints a [Sierpiński Triangle](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle)		       |
 | Basic Neural Network 		      | basic_neural_network     | A simple neural network with inputs and outputs. 									       |
@@ -55,14 +55,14 @@ Due to the fact that the difficulty of each task is VERY subjective, the challen
 | Sudoku Generator/Solver	      | sudoku		         | A simple program for generating sudoku boards and/or solving them.							       |
 | Geekcode generator		      | geekcode_generator       | Generate a block of [geekcode](https://en.wikipedia.org/wiki/Geek_Code) based on various parameters.			       |
 | Hangman			      | hangman		         | Simple hangman game.													       |
-| Collatz_Conjecture		      | collatz_conjecture       | Given a number N, follow the steps of the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) and count the<br>number of steps until 1 is reached. |
-| Scientific Calculator		      | scientific_calculator    | Similiar to the previous, more basic calculator, although this time with<br>many more functions and possible computations.  |
+| Collatz_Conjecture		      | collatz_conjecture       | Given a number N, follow the steps of the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) and count the number of steps until 1 is reached. |
+| Scientific Calculator		      | scientific_calculator    | Similiar to the previous, more basic calculator, although this time with many more functions and possible computations.  |
 | Currency converter		      | currency_converter       | Convert to and from various currencies. Ideally you should grab the live exchange rates from the web.		       |
 | Text to ASCII			      | text_to_ascii	         | Simple program which converts string input into larger ASCII text							       |
 | Simple paint clone		      | paint_clone	         | A simple paint clone that allows you to draw lines on a canvas with your mouse and/or keyboard			       |
 | Longest common substring	      | longest_common_substring | Take multiple strings and find the longest common sub-string among them.						       |
 | Draw a circle with arbitrary radius | circle_drawer		 | Allow the user to specify a radius and use it to draw a corresponding circle.					       |
-| Matrix rotator		      | matrix_rotator           | Given an *n x n* matrix as input, allow for rotating/flipping/reversing the <br>matrix (as if it were an image). Bonus for implementing *m x n* (non-square) rotation! |
+| Matrix rotator		      | matrix_rotator           | Given an *n x n* matrix as input, allow for rotating/flipping/reversing the  matrix (as if it were an image). Bonus for implementing *m x n* (non-square) rotation! |
 | Integer to Roman numeral	      | integer_to_roman	 | Convert a given integer value to roman numerals.									       |
 ## How to contribute
 
