@@ -9,7 +9,7 @@ Anyone can:
 
 As mentioned above, each challenge can be solved multiple times by multiple people, as the goal of this list is not to solve every single challenge listed, but rather to have the people solving them learn something new and get better at coding. So if there's a challenge which you want to take a shot at, but someone else has already coded a solution for it, then you don't need to worry about it.
 
-This repository is also a great way to make your first __pull requests__. If you do not know how to contribute to a Github reposity, see our steps [here](#How-to-contribute)
+This repository is also a great way to make your first __pull requests__. If you do not know how to contribute to a Github reposity, see our steps [here](#How-to-contribute).
 
 ### Tips:
 
