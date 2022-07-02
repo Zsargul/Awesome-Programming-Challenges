@@ -66,10 +66,9 @@ Due to the fact that the difficulty of each task is VERY subjective, the challen
 | Integer to Roman numeral	      | integer_to_roman	 | Convert a given integer value to roman numerals.									       |
 ## How to contribute
 
-1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository from your web browser
+__1.__ [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository from your web browser
 
-
-2. Clone your forked repository into a directory or your choice:
+__2.__ Clone your forked repository into a directory or your choice:
 ```
 git clone https://github.com/{Your Username}/Awesome-Programming-Challenges
 ```
@@ -82,7 +81,7 @@ git remote add upstream https://github.com/Zsargul/Awesome-Programming-Challenge
 
 The name of ```your_new_branch``` does not matter much, so you can name it whatever you'd like.
 
-3.  On your new branch, make a folder (if it does not exist already) named after the task you are attempting, for example:
+4.  On your new branch, make a folder (if it does not exist already) named after the task you are attempting, for example:
 ```
 mkdir temperature_converter
 ```
@@ -91,7 +90,7 @@ You can use ```git status``` to check which branch you are currently on.
 
 The folder names for each challenge can be found in the [list above](#CHALLENGES).
 
-4. In that folder, create another folder named after your Github username. That folder will contain your file(s) for the solution you have created. In brief, your submission should look something like this in the file directory:
+5. In that folder, create another folder named after your Github username. That folder will contain your file(s) for the solution you have created. In brief, your submission should look something like this in the file directory:
 __Example:__
 ```
 temperature_converter/your_username/your_solution.py
@@ -108,16 +107,14 @@ temperature_converter/
 
 for a multi-file solution.
 
-5. Add, commit and push your solution to your fork using these commands:
+6. Add, commit and push your solution to your fork using these commands:
 ```
 git add .
 git commit -m "description of changed files"
 git push -u origin your_new_branch
 ```
 
-6. After successfully pushing, you can finally submit your solution by opening up a pull request through your fork on your web browser. If you do not know how to do this, see [the following](https://opensource.com/article/19/7/create-pull-request-github)
-
-
+7. After successfully pushing, you can finally submit your solution by opening up a pull request through your fork on your web browser. If you do not know how to do this, see [the following](https://opensource.com/article/19/7/create-pull-request-github).
 
 ## Submitting new challenges or changes to the current list
 
